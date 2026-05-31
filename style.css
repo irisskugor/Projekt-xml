@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:linear-gradient(135deg,#2d0b45,#5b1e7a,#a239ca);
+    min-height:100vh;
+    color:white;
+}
+
+nav{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    text-align:center;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd6ff;
+}
+
+.container{
+    width:60%;
+    margin:30px auto;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+input{
+    width:60%;
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    outline:none;
+}
+
+button{
+    padding:14px 25px;
+    border:none;
+    border-radius:30px;
+    background:#ff4fd8;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+button:hover{
+    background:#ff2fc8;
+}
+
+.kartica{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(8px);
+    padding:20px;
+    margin-top:30px;
+    border-radius:20px;
+    text-align:left;
+}
+
+.kartica:hover{
+    transform:translateY(-3px);
+    background:rgba(255,255,255,0.25);
+}
+
+.kartica img{
+    width:120px;
+    height:120px;
+    border-radius:15px;
+}
+
+.kartica h3{
+    margin:0;
+    color:#ffd6ff;
+    font-size:22px;
+}
+
+.kartica p{
+    margin:6px 0;
+}
+
+audio{
+    margin-top:10px;
+    width:250px;
+}
+
+.random-btn{
+    display:block;
+    margin:20px auto;
+}
